@@ -1,0 +1,27 @@
+{
+	"name": "ds_course",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azuresqldatabase_dbparameterize",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "courseid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "coursename",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "course"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
