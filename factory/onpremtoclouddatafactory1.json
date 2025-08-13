@@ -1,0 +1,9 @@
+{
+	"name": "onpremtoclouddatafactory1",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1f2c05b1-39aa-4bc6-81f4-08464beb43fd",
+		"tenantId": "86442b7e-0d4c-4c76-82c5-c8603e5c153f"
+	}
+}

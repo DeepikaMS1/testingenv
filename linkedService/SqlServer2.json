@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "10.0.0.227,1433",
+			"database": "master",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sqlproject",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0NGJjYjYwZS02NWY2LTRlMmMtOWU3ZC0yYjlhMTk2MTcyMzAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeselfhosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
